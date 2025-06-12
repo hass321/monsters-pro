@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#95dada;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c3e50;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#grad1)" rx="128" ry="128"/>
+  <g transform="translate(256,256)">
+    <!-- Monster face -->
+    <circle cx="-80" cy="-40" r="40" fill="white"/> <!-- Left eye -->
+    <circle cx="80" cy="-40" r="40" fill="white"/>  <!-- Right eye -->
+    <circle cx="-80" cy="-40" r="20" fill="#2c3e50"/> <!-- Left pupil -->
+    <circle cx="80" cy="-40" r="20" fill="#2c3e50"/>  <!-- Right pupil -->
+    <!-- Cute smile -->
+    <path d="M-100,40 Q0,100 100,40" stroke="white" stroke-width="15" fill="none"/>
+    <!-- Horns -->
+    <path d="M-120,-120 L-160,-200 L-80,-160 Z" fill="white"/>
+    <path d="M120,-120 L160,-200 L80,-160 Z" fill="white"/>
+  </g>
+</svg>
